@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #12bed4;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main .text-input{    
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 0.5rem;
+}
+
+.heading{
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.btn{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: border-color 0.5s;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    border-color: #475daa;
+    color: #475daa;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+    background-color: #12a3d9;
+    padding-left: 0.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+li > button{
+    float: right;
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    outline: none;
+}
+
+.delete{
+    display: none;
+}
+
+.done{
+    background-color: lightblue;
+    color: lightcoral;
+    text-decoration: line-through;
+    border: 1px dashed lightcoral;
+}
